@@ -1,7 +1,10 @@
 n=int(input())
-c=64+n
-for i in range(n,0,-1):
-    for j in range(0,i):
-        print(chr(c),end=" ")
-    c=c-1
+t=n
+for i in range(0,n):
+    for j in range(0,n):
+        if i==j or j==t-1:
+            print('x',end="")
+        else:
+            print('0',end='')
+    t=t-1
     print()
