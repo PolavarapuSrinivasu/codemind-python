@@ -1,8 +1,13 @@
 n=int(input())
 l=list(map(int,input().split()))
-c=0
-avg=sum(l)//n
+s=0
 for i in l:
-    if i>=avg:
+        s+=i
+a=s//n
+c=0
+for i in l:
+    if i>=a:
         c+=1
+    else:
+        continue
 print(c)
