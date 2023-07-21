@@ -1,0 +1,7 @@
+import math
+num = int(input())
+is_perfect_power = any(num == int(math.pow(base, exponent)) for base in range(2, int(math.sqrt(num)) + 1) for exponent in range(2, int(math.log(num, base)) + 1))
+if is_perfect_power:
+    print("Perfect Power")
+else:
+    print("Not a Perfect Power")
