@@ -1,0 +1,16 @@
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+def is_fibonacci_prime(num):
+    return is_prime(num) and any(num == fibonacci for fibonacci in generate_fibonacci_numbers())
+
+num = int(input())
+if is_fibonacci_prime(num):
+    print("Fibonacci Prime")
+else:
+    print("Not a Fibonacci Prime")
