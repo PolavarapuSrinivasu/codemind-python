@@ -1,0 +1,13 @@
+def is_palindrome_number(num):
+    return str(num) == str(num)[::-1]
+
+n = int(input())
+count = 0
+num = 1
+palindrome_numbers = []
+while count < n:
+    if is_palindrome_number(num):
+        palindrome_numbers.append(num)
+        count += 1
+    num += 1
+print("Palindrome Numbers:", palindrome_numbers)
