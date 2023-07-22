@@ -1,0 +1,4 @@
+import math
+side = int(input())
+area = (math.sqrt(3) / 4) * side ** 2
+print("Area:", area)
