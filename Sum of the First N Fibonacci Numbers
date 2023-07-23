@@ -1,0 +1,11 @@
+def generate_fibonacci_numbers(n):
+    a, b = map(int,input().split())
+    fib_numbers = []
+    for _ in range(n):
+        fib_numbers.append(a)
+        a, b = b, a + b
+    return fib_numbers
+
+n = 5
+sum_of_fibonacci_numbers = sum(generate_fibonacci_numbers(n))
+print("Sum of Fibonacci Numbers:", sum_of_fibonacci_numbers)
