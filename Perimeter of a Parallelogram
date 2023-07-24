@@ -1,0 +1,4 @@
+base_length = float(input("Enter the base length: "))
+side_length = float(input("Enter the side length: "))
+perimeter = 2 * (base_length + side_length)
+print("Perimeter:", perimeter)
