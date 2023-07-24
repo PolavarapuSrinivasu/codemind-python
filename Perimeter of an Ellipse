@@ -1,0 +1,5 @@
+import math
+major_axis = float(input("Enter the major axis length: "))
+minor_axis = float(input("Enter the minor axis length: "))
+perimeter = 2 * math.pi * math.sqrt((major_axis**2 + minor_axis**2) / 2)
+print("Perimeter:", perimeter)
