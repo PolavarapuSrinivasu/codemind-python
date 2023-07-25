@@ -1,0 +1,4 @@
+diagonal1 = float(input("Enter the first diagonal length: "))
+diagonal2 = float(input("Enter the second diagonal length: "))
+area = (diagonal1 * diagonal2) / 2
+print("Area:", area)
