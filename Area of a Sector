@@ -1,0 +1,6 @@
+import math
+radius = float(input("Enter the radius: "))
+angle_degrees = float(input("Enter the angle in degrees: "))
+angle_radians = math.radians(angle_degrees)
+area = (angle_radians / 2) * radius ** 2
+print("Area:", area)
