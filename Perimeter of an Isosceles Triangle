@@ -1,0 +1,4 @@
+equal_side = float(input("Enter the equal side length: "))
+base = float(input("Enter the base length: "))
+perimeter = 2 * equal_side + base
+print("Perimeter:", perimeter)
