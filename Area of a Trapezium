@@ -1,0 +1,5 @@
+base1 = float(input("Enter the first base length: "))
+base2 = float(input("Enter the second base length: "))
+height = float(input("Enter the height: "))
+area = 0.5 * (base1 + base2) * height
+print("Area:", area)
