@@ -1,0 +1,4 @@
+diagonal1 = float(input("Enter the length of the first diagonal: "))
+diagonal2 = float(input("Enter the length of the second diagonal: "))
+perimeter = 2 * (diagonal1 + diagonal2)
+print("Perimeter of the rhombus:", perimeter)
