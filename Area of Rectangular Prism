@@ -1,0 +1,8 @@
+def rectangular_prism_area(length, width, height):
+    return 2 * (length * width + length * height + width * height)
+
+length = float(input("Enter the length of the rectangular prism: "))
+width = float(input("Enter the width of the rectangular prism: "))
+height = float(input("Enter the height of the rectangular prism: "))
+
+print("Surface Area of Rectangular Prism:", rectangular_prism_area(length, width, height))
