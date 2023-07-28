@@ -1,0 +1,8 @@
+def triangular_prism_area(base_perimeter, base_area, height):
+    return (base_perimeter * height) + 2 * base_area
+
+base_perimeter = float(input("Enter the perimeter of the base triangle: "))
+base_area = float(input("Enter the area of the base triangle: "))
+height = float(input("Enter the height of the triangular prism: "))
+
+print("Surface Area of Triangular Prism:", triangular_prism_area(base_perimeter, base_area, height))
