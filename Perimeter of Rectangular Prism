@@ -1,0 +1,8 @@
+def rectangular_prism_perimeter(length, width):
+    return 2 * (length + width)
+
+length = float(input("Enter the length of the rectangular prism: "))
+width = float(input("Enter the width of the rectangular prism: "))
+height = float(input("Enter the height of the rectangular prism: "))
+
+print("Perimeter of the Base of Rectangular Prism:", rectangular_prism_perimeter(length, width))
