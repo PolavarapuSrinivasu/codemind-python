@@ -1,0 +1,8 @@
+def pentagonal_prism_area(base_perimeter, base_area, height):
+    return (base_perimeter * height) + 2 * base_area
+
+base_perimeter = float(input("Enter the perimeter of the base pentagon: "))
+base_area = float(input("Enter the area of the base pentagon: "))
+height = float(input("Enter the height of the pentagonal prism: "))
+
+print("Surface Area of Pentagonal Prism:", pentagonal_prism_area(base_perimeter, base_area, height))
