@@ -1,9 +1,12 @@
-x,y=map(int,input().split())
-if x > y:
-    smaller = y
+a,b=map(int,input().split())
+if a==b:
+    print(a)
+elif a%b==0:
+    print(b)
+elif b%a==0:
+    print(a)
 else:
-    smaller = x
-for i in range(1, smaller+1):
-    if((x % i == 0) and (y % i == 0)):
-        hcf = i
-print(hcf)
+    for i in range(1,a):
+        if a%i==0 and b%i==0:
+            m=i
+    print(m)
