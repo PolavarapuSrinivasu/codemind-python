@@ -1,0 +1,16 @@
+def plusMinus(arr):
+    a=0
+    b=0
+    c=0
+    l=0
+    for i in arr:
+        l+=1
+        if i<0:
+            a+=1
+        elif i>0:
+            b+=1
+        else:
+            c+=1
+    print(b/l)
+    print(a/l)
+    print(c/l)
