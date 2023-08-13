@@ -1,0 +1,21 @@
+t=int(input())
+for i in range(0,t):
+    n=int(input())
+    if n<38:
+        print(n)
+    else:
+        if n>=38 and n%5==0:
+            print(n)
+        else:
+            a=n
+            for j in range(0,2):
+                a+=1
+                if a%5==0:
+                    print(a)
+                    break
+            else:
+                print(n)
+                
+                
+        
+        
